@@ -72,17 +72,18 @@
   <h1>ZeroC 개인정보 처리방침</h1>
   <p class="meta">최종 업데이트: 2026년 4월 28일</p>
 
-  <p>ZeroC(이하 "앱")는 사용자의 개인정보를 어떠한 형태로도 수집하거나 외부로 전송하지 않습니다.</p>
+  <p>ZeroC(이하 "앱")는 사용자가 입력한 예산·지출 데이터를 <strong>외부로 전송하지 않습니다</strong>. 광고 표시를 위해 Google AdMob이 광고 식별자를 사용할 수 있으며, 자세한 내용은 아래에 명시합니다.</p>
 
   <h2>1. 수집하는 정보</h2>
-  <p>ZeroC는 다음과 같은 어떠한 정보도 수집하지 않습니다.</p>
+  <p>ZeroC 자체는 다음 어떠한 정보도 수집하지 않습니다.</p>
   <ul>
     <li>개인 식별 정보 (이름, 이메일, 전화번호, 생년월일 등)</li>
     <li>위치 정보</li>
     <li>연락처, 사진, 캘린더 등 기기 데이터</li>
-    <li>광고 식별자 또는 분석용 식별자</li>
     <li>사용 이력, 클릭, 화면 기록 등 행동 데이터</li>
   </ul>
+  <p>다만 Google AdMob(광고 SDK)이 광고 표시를 위해 <strong>광고 식별자(IDFA / Android 광고 ID)</strong>에 접근할 수 있습니다. 이 데이터는 Google이 처리하며 ZeroC 서버로는 전송되지 않습니다. 사용자는 기기 설정에서 광고 추적을 거부하거나 광고 식별자를 재설정할 수 있습니다.</p>
+  <p>"광고 제거" 인앱 결제(IAP)를 구매하면 광고 SDK가 호출되지 않으므로 광고 식별자 접근도 발생하지 않습니다.</p>
 
   <h2>2. 데이터 저장 위치</h2>
   <p>사용자가 앱에 입력한 예산 및 지출 내역은 <strong>사용자 기기 내부에만</strong> 저장됩니다.</p>
@@ -95,18 +96,16 @@
   <h2>3. 권한 사용</h2>
   <p>ZeroC는 다음 권한을 사용자가 명시적으로 활성화한 경우에만 사용합니다.</p>
   <ul>
-    <li><strong>알림(Notifications)</strong>: 사용자가 설정에서 "일일 알림"을 켠 경우에 한해 매일 지정 시간에 지출 입력 리마인더를 표시합니다. 알림 메시지는 외부로 전송되지 않으며 기기 내에서만 생성됩니다.</li>
+    <li><strong>알림(Notifications)</strong>: 사용자가 설정에서 "무지출 스트릭 알림"을 켠 경우에 한해 무지출 하루를 달성한 다음 날 아침 9시에 알림이 표시됩니다. 알림 메시지는 외부로 전송되지 않으며 기기 내에서만 생성됩니다.</li>
   </ul>
 
   <h2>4. 제3자 서비스</h2>
-  <p>ZeroC는 다음을 일체 사용하지 않습니다.</p>
+  <p>ZeroC는 다음 제3자 서비스를 사용합니다.</p>
   <ul>
-    <li>광고 네트워크</li>
-    <li>분석(analytics) SDK</li>
-    <li>크래시 리포팅 도구</li>
-    <li>클라우드 동기화 서비스</li>
-    <li>소셜 로그인</li>
+    <li><strong>Google AdMob</strong>: 무료 사용자에게 배너 광고를 표시합니다. 광고 식별자, 기기 정보, IP 주소 등을 Google이 광고 게재 목적으로 처리할 수 있습니다. 자세한 내용은 <a href="https://policies.google.com/technologies/ads">Google 광고 정책</a> 및 <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>을 참조하세요.</li>
+    <li><strong>Apple App Store / Google Play Billing</strong>: 인앱 결제 처리. 결제 정보는 Apple 또는 Google이 직접 처리하며 ZeroC는 결제 카드 정보에 접근하지 않습니다.</li>
   </ul>
+  <p>위 외에는 분석 SDK, 크래시 리포팅 도구, 클라우드 동기화 서비스, 소셜 로그인 등을 일체 사용하지 않습니다.</p>
 
   <h2>5. 어린이의 개인정보</h2>
   <p>ZeroC는 만 14세 미만 아동을 대상으로 하지 않으며, 어떠한 개인정보도 수집하지 않으므로 아동의 개인정보 또한 수집되지 않습니다.</p>
@@ -123,17 +122,18 @@
   <h1>ZeroC Privacy Policy</h1>
   <p class="meta">Last updated: April 28, 2026</p>
 
-  <p>ZeroC (the "App") does not collect, store, or transmit any personal information.</p>
+  <p>ZeroC (the "App") does not transmit user-entered budget or expense data outside the device. Google AdMob may access advertising identifiers to display ads, as detailed below.</p>
 
   <h2>1. Information We Collect</h2>
-  <p>ZeroC collects <strong>no information of any kind</strong>, including:</p>
+  <p>ZeroC itself collects <strong>no information of any kind</strong>, including:</p>
   <ul>
     <li>Personal identifiers (name, email, phone, date of birth)</li>
     <li>Location data</li>
     <li>Device data such as contacts, photos, or calendar</li>
-    <li>Advertising or analytics identifiers</li>
     <li>Usage logs, taps, or screen recordings</li>
   </ul>
+  <p>However, Google AdMob (advertising SDK) may access the device <strong>advertising identifier (IDFA on iOS / Android Advertising ID)</strong> to serve ads. This data is processed by Google and is not transmitted to ZeroC's servers. You may opt out of ad tracking or reset the advertising identifier in your device settings.</p>
+  <p>Purchasing the "Remove Ads" in-app purchase disables the ad SDK entirely; no advertising identifier access occurs after that.</p>
 
   <h2>2. Data Storage</h2>
   <p>Budget and expense data you enter is stored <strong>only on your device</strong>:</p>
@@ -146,18 +146,16 @@
   <h2>3. Permissions</h2>
   <p>ZeroC requests the following permission only when you explicitly enable it:</p>
   <ul>
-    <li><strong>Notifications</strong>: If you enable "Daily Reminder" in Settings, the App schedules a local notification at your chosen time. Notification content is generated entirely on-device and is never transmitted externally.</li>
+    <li><strong>Notifications</strong>: If you enable "No-Spend Streak Notification" in Settings, the App schedules a local notification at 9 AM the morning after a no-spend day. Notification content is generated entirely on-device and is never transmitted externally.</li>
   </ul>
 
   <h2>4. Third-Party Services</h2>
-  <p>ZeroC contains <strong>no</strong> third-party SDKs of any kind, including:</p>
+  <p>ZeroC uses the following third-party services:</p>
   <ul>
-    <li>Advertising networks</li>
-    <li>Analytics</li>
-    <li>Crash reporting</li>
-    <li>Cloud sync</li>
-    <li>Social login</li>
+    <li><strong>Google AdMob</strong>: displays banner ads to free users. Google may process advertising identifiers, device information, and IP addresses for ad serving. See <a href="https://policies.google.com/technologies/ads">Google ad policies</a> and <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
+    <li><strong>Apple App Store / Google Play Billing</strong>: in-app purchase processing. Payment information is handled directly by Apple or Google; ZeroC does not access payment card details.</li>
   </ul>
+  <p>Beyond the above, the App contains no analytics SDK, crash reporting, cloud sync, or social login.</p>
 
   <h2>5. Children's Privacy</h2>
   <p>ZeroC is not directed at children under 14. As we collect no personal information at all, we do not knowingly collect any data from children.</p>
